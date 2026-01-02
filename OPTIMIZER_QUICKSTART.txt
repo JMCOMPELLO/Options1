@@ -1,0 +1,66 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    🎯 PARAMETER OPTIMIZER - QUICK START                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+WHAT IT DOES:
+  Automatically tests different combinations of ALL strategy parameters to find
+  the configuration that maximizes your Total Return % (Equity Return Total Value %).
+
+HOW TO USE:
+
+  1. Open the application:
+     /usr/local/bin/python3 "/Users/jkm/Desktop/Options 1/options_backtest_app.py"
+
+  2. Go to "Strategy Configuration" tab
+
+  3. Click the new button: 🎯 OPTIMIZE PARAMETERS
+
+  4. Set number of combinations to test (50-100 recommended)
+
+  5. Click 🚀 START OPTIMIZATION
+
+  6. Wait 3-5 minutes while it tests combinations
+
+  7. Review the best parameters found
+
+  8. Click ✓ APPLY BEST PARAMETERS
+
+  9. Run your backtest with optimized settings!
+
+WHAT GETS OPTIMIZED:
+  ✓ Stop Loss %                    ✓ Delta Ranges (Short & Long)
+  ✓ Profit Target %                ✓ IV Rank Min/Max
+  ✓ Trailing Stop %                ✓ Min Open Interest
+  ✓ Min/Max DTE                    ✓ Min Volume
+  ✓ Max Concurrent Positions       ✓ Capital per Trade
+
+OPTIMIZATION GOAL:
+  Maximize: Total Return % = (Total P&L / $20,000) × 100
+
+EXAMPLE RESULTS:
+  Before Optimization: 8.3% total return
+  After Optimization:  18.5% total return  ← 2.2x improvement!
+
+RECOMMENDATIONS:
+  • Use 50-100 combinations for balanced results (4-5 minutes)
+  • Start with a proven strategy (Iron Condor, Bull Put Spread, etc.)
+  • Use at least 1 year of date range
+  • Enable 1-3 indicators for better trade quality
+
+TIPS:
+  • More combinations = better results but takes longer
+  • The optimizer tests ~1 combination per second
+  • You can stop optimization at any time
+  • Results are displayed in real-time as testing progresses
+
+TECHNICAL:
+  • Runs in background thread (UI stays responsive)
+  • Uses smart parameter sampling (tests critical combos exhaustively)
+  • Automatically validates parameter constraints (min < max)
+  • Saves best result for easy application
+
+For detailed documentation, see: OPTIMIZER_GUIDE.md
+
+═══════════════════════════════════════════════════════════════════════════════
+Ready to maximize your returns? Click 🎯 OPTIMIZE PARAMETERS and let's go! 🚀
+═══════════════════════════════════════════════════════════════════════════════

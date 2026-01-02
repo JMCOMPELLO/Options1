@@ -1,0 +1,41 @@
+{
+  "strategy": "Bull Call Spread",
+  "start_date": "2023-01-01",
+  "end_date": "2024-12-31",
+  "trade_frequency": "Daily",
+  "max_positions": 10,
+  "capital_per_trade": 1000.0,
+  "min_dte": 30,
+  "max_dte": 60,
+  "risk_management": {
+    "stop_loss_enabled": true,
+    "stop_loss_pct": 50.0,
+    "profit_target_enabled": true,
+    "profit_target_pct": 50.0,
+    "trailing_stop_enabled": true,
+    "trailing_stop_pct": 25.0
+  },
+  "indicators": {
+    "SMA Crossover": false,
+    "RSI Filter": true,
+    "MACD Signal": false,
+    "Bollinger Bands": false,
+    "Volume Filter": false,
+    "ATR Filter": false,
+    "IV Rank Filter": false,
+    "Momentum": false
+  },
+  "parameters": {
+    "Delta Range (Short Leg)": "0.20,0.35",
+    "Delta Range (Long Leg)": "0.05,0.15",
+    "Min IV Rank": "30",
+    "Max IV Rank": "80",
+    "Min Open Interest": "100",
+    "Min Volume": "50",
+    "Spread Width ($)": "5,10",
+    "Credit/Debit Ratio": "0.25,0.40",
+    "Min Theta (per day)": "-0.10",
+    "Max Vega": "0.50",
+    "Max Gamma": "0.05"
+  }
+}
