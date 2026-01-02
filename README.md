@@ -291,7 +291,7 @@ Click "SAVE CONFIG" to export your strategy configuration as JSON. You can edit 
 
 ## ⚠️ Disclaimer
 
-This software is for educational and research purposes only. Options trading carries significant risk. Past performance does not guarantee future results. Always do your own research and consider consulting a financial advisor.
+This software is for research purposes only. Options trading carries significant risk. Past performance does not guarantee future results. Always do your own research and consider consulting a financial advisor.
 
 ## 📧 Support
 
@@ -308,7 +308,3 @@ For Massive API questions: https://polygon.io/docs
 - [ ] Multi-leg adjustment strategies
 - [ ] Commissions and slippage modeling
 
----
-
-**Version**: 1.0  
-**License**: MIT
